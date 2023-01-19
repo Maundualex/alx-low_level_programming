@@ -1,5 +1,5 @@
+#include <stdio.h>
 #include "3-calc.h"
-#include <stddef.h>
 
 /**
  * get_op_func - get ops function pointer of type char array
