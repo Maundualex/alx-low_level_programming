@@ -1,11 +1,12 @@
 /**
- * op_add - Returns the sum of @ and @b
+ * op_add - adds @a and @b
  *
  * @a: input 1
  * @b: input 2
  *
- * Return: The sum of @a and @b
+ * Return: sum of @a and @b
  */
+
 int op_add(int a, int b)
 {
 	return (a + b);
@@ -13,12 +14,12 @@ int op_add(int a, int b)
 
 
 /**
- * op_sub - Returns the difference of @a and @b
- * 
+ * op_sub - gets the difference of @a and @b
+ *
  * @a: input 1
  * @b: input 2
  *
- * Return: The difference of @a and @b
+ * Return: difference of @a and @b
  */
 int op_sub(int a, int b)
 {
@@ -27,12 +28,12 @@ int op_sub(int a, int b)
 
 
 /**
- * op_mul - Returns the product of @a and @b
+ * op_mul - multiplies @a and @b
  *
  * @a: input 1
  * @b: input 2
  *
- * Return: The product of @a and @b
+ * Return: product of @a and @b
  */
 int op_mul(int a, int b)
 {
@@ -41,12 +42,12 @@ int op_mul(int a, int b)
 
 
 /**
- * op_div - Returns the division of @a and @b
+ * op_div - divides @a by @b
  *
  * @a: input 1
  * @b: input 2
  *
- * Return: The division of @a and @b
+ * Return: results of the division @a and @b
  */
 int op_div(int a, int b)
 {
@@ -55,12 +56,12 @@ int op_div(int a, int b)
 
 
 /**
- * op_mod - Returns the remainder of the division of @a and @b
+ * op_mod - gets the reminder of the division between @a and @b
  *
  * @a: input 1
  * @b: input 2
  *
- * Return: The remainder of the division of @a by @b
+ * Return: the remainder
  */
 int op_mod(int a, int b)
 {

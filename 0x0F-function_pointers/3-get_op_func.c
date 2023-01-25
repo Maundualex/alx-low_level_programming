@@ -4,8 +4,8 @@
 /**
  * get_op_func - get ops function pointer of type char array
  * 		 that accepts two inputs of int data type
- * 
- * @s: The operator passed as argument.
+ *
+ * @s: a character pointer pointing to a symbol from the program argument
  *
  * Return: one of the operator functions to perform calculations
  */
@@ -19,15 +19,15 @@ int (*get_op_func(char *s))(int, int)
 		{"*", op_mul},
 		{"/", op_div},
 		{"%", op_mod},
-		{NULL, NULL},
-	};
+		{NULL, NULL}
+	}
 	int i = 0;
 
 	while (i < 5)
-	{	
+	{
 		if (*s == *ops[i].op)
 			return (ops[i].f);
-		i++;	
+		i++;
 	}
 
 	return (NULL);
