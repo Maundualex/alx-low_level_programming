@@ -8,7 +8,7 @@
  * @s: a character pointer pointing to a symbol from the program argument
  *
  * Return: one of the operator functions to perform calculations
-*/
+ */
 
 int (*get_op_func(char *s))(int, int)
 {
