@@ -7,8 +7,8 @@ int int_index(int *array, int size, int (*cmp)(int));
 
 /**
  * enum bool - typedef function for bool
- *  @TRUE: 1
- *  @FALSE: 0
+ * @TRUE: 1
+ * @FALSE: 0
  */
 typedef enum bool
 {
