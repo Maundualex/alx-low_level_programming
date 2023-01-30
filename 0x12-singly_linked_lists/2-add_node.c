@@ -22,6 +22,10 @@ list_t *add_node(list_t **head, const char *str)
 	while (str[str_len] != '\0')
 		str_len++;
 
+	/*count length of string*/
+	while (str[str_len] != '\0')
+		str_len++;
+
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
 		return (NULL);
